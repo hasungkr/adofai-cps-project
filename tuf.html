@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>TUF | ADOFAI.</title>
+        <link rel="stylesheet" href="styles.css" />
+        <script src="script.js"></script>
+    </head>
+
+    <body class="background">
+        <h1 class="title">A Dance of Fire and Ice</h1>
+        <!--top nav code-->
+        <div class="topnav">
+            <a href="index.html">Home</a>
+            <a href="gm.html">Game Mechanics</a>
+            <a href="w.html">The Skill Ceiling</a>
+            <a href="tuf.html" class="active">The Universal Fourms(TUF)</a>
+            <a href="it.html">Try ADOFAI!</a>
+        </div>
+        <img class="img" src="img/tuf.png" height="300" />
+        <h2 class="head">What is TUFourms?</h2>
+        <div class="p">
+            <p>
+                TUFourms, or <span class="bold">The Universal Forums</span>, is the largest and most active community
+                hub for custom levels for A Dance of Fire and Ice. It serves as a central platform where mappers and
+                players can share, discover, and discuss community-made content. While custom levels can be found on
+                other platforms, TUFourms is the primary destination for high-quality, community-vetted levels, making
+                it a core part of the ADOFAI ecosystem.
+            </p>
+            <p>
+                Key features of the forum include a massive library of level submissions, complete with download links
+                and discussion threads. The site is also home to the TUF Rating System, a unique and widely-used
+                difficulty rating system that provides a consistent way to gauge a level's challenge.
+            </p>
+            <p>
+                Whether you're looking for new levels to play, want to share your own creations, or just want to connect
+                with other players, TUFourms is an essential resource for any ADOFAI enthusiast.
+            </p>
+        </div>
+        <h2 class="head">TUFourms's Ranking System</h2>
+        <img
+            class ="img"
+             src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExbWVjamF3ZDNsbDA5YzRmbmNhYTZiejZhNGZoNnZxeWRwdXBia3FsZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/MzUDYd4aNIOYaJlgP3/giphy.gif" />
+        <br />
+        <label for="tuf-input" class="p">Enter TUF Rating:</label>
+        <input type="text" id="tuf-input" class="p" placeholder="e.g., P, G, or U" />
+        <button id="show-icon-btn" class="p">Show Icon</button>
+        <div id="icon-container">
+            <img id="tuf-icon" src="tuf-icons/default.png" alt="TUF Difficulty Icon" style="max-width: 150px" />
+        </div>
+        <table id="table">
+            <tr>
+                <th>Tier</th>
+                <th>Prefix</th>
+                <th>Description</th>
+            </tr>
+            <tr>
+                <td>Planetary</td>
+                <td>P</td>
+                <td>
+                    The "P" tier covers levels that range from relatively simple to a moderate challenge. These levels
+                    are great for new players entering the custom level scene and for those looking for a fun,
+                    not-too-demanding experience.
+                </td>
+            </tr>
+            <tr>
+                <td>Galactic</td>
+                <td>G</td>
+                <td>
+                    The "G" tier is where the difficulty significantly increases. Levels in this category require solid
+                    timing, precision, and an understanding of advanced mechanics. They are considered the "standard"
+                    challenge for experienced players and represent a notable step up in difficulty.
+                </td>
+            </tr>
+            <tr>
+                <td>Universal</td>
+                <td>U</td>
+                <td>
+                    The "U" tier is reserved for the most difficult and challenging levels in the community. These are
+                    often referred to as "universals" and are designed to push the boundaries of what is possible in the
+                    game. They require an incredible amount of skill and dedication to complete.
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>

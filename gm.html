@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Game Mechanics | ADOFAI.</title>
+        <link rel="stylesheet" href="styles.css" />
+        <script src="script.js"></script>
+    </head>
+    <body class="background">
+        <h1 class="title">A Dance of Fire and Ice</h1>
+        <!--top nav code-->
+        <div class="topnav">
+            <a href="index.html">Home</a>
+            <a href="gm.html" class="active">Game Mechanics</a>
+            <a href="w.html">The Skill Ceiling</a>
+            <a href="tuf.html">The Universal Fourms(TUF)</a>
+            <a href="it.html">Try ADOFAI!</a>
+        </div>
+        <h1 class="title">Game <span style="color: skyblue">Mechanics</span></h1>
+        <h2 class="head">Gameplay</h2>
+        <p class="p">
+            Gameplay in A Dance of Fire and Ice consists of two orbs known as Planets, one stationary on a track and the
+            other orbiting the first one. The player has to tap the screen or press a key when the orbiting planet is
+            over the next tile on the track, which locks the orbiting planet in place and causes the other planet to
+            orbit in turn. If the orbiting planet makes a full circle around the stationary planet or the player taps
+            too early too many times, the orbiting planet will crash into the stationary planet, causing them both to
+            explode, resulting in failure.
+        </p>
+        <h2 class="head">Tile Effects</h2>
+        <table id="table">
+            <tr>
+                <th>Effect</th>
+                <th>Icon</th>
+                <th>Description</th>
+            </tr>
+            <tr>
+                <td>Goal</td>
+                <td><img src="img/Goal.png" width="70" /></td>
+                <td>Placed at the end of the track. Landing on it results in success.</td>
+            </tr>
+            <tr>
+                <td>Rabbit</td>
+                <td><img src="img/Rabbit.png" width="70" /></td>
+                <td>Increases the BPM by 2×.</td>
+            </tr>
+            <tr>
+                <td>Snail</td>
+                <td><img src="img/Snail.png" width="70" /></td>
+                <td>Increases the BPM by 2×.</td>
+            </tr>
+            <tr>
+                <td>Double Rabbit</td>
+                <td><img src="img/Double Rabbit.png" width="70" /></td>
+                <td>Increases the BPM by 4× or greater</td>
+            </tr>
+            <tr>
+                <td>Double Snail</td>
+                <td><img src="img/Double%20Snail.png" width="70" /></td>
+                <td>Decreases the BPM by 4× or greater</td>
+            </tr>
+            <tr>
+                <td>Swirls</td>
+                <td><img src="img/Swirls.png" width="70" /></td>
+                <td>
+                    Reverses the direction the planets' orbit (eg. if the planets orbit clockwise, when a planet lands
+                    on a swirl, they'll start orbiting anti-clockwise). Planets always orbit clockwise at the start of
+                    the track. The end of the swirl will be red to indicate the tile it's on has an angle lower than 180
+{"path":"/tauri/C/Users/Hasung/Documents/Phoenix Code/CPS Project/gm.html"}                    degrees. Otherwise, it will be blue.
+                </td>
+            </tr>
+            <tr>
+                <td>Checkpoint</td>
+                <td><img src="img/Checkpoint.png" width="70" /></td>
+                <td>
+                    Causes the planets to respawn at this tile when they fail, rather than the beginning. Some
+                    checkpoints will, rather than respawning the planets directly on it, respawn them a couple of tiles
+                    ahead/behind of it.
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>

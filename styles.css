@@ -1,0 +1,92 @@
+.title {
+    color: palevioletred;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.bold {
+    font-weight: bolder
+}
+
+#table {
+    color: palevioletred;
+    margin: auto;
+    font-family: sans-serif;
+    border: 2px solid palevioletred;
+}
+
+td,
+th {
+    border: 2px solid palevioletred;
+    text-align: center;
+    padding: 10px;
+}
+
+.p {
+    color: palevioletred;
+    text-align: center;
+    font-family: sans-serif;
+    margin-top: 10px;
+}
+
+.li {
+    color: palevioletred;
+    text-align: left;
+    font-family: sans-serif;
+    margin: 100px;
+    margin-top: 10px;
+}
+
+.head {
+    color: palevioletred;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bolder;
+    border-bottom: solid;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.topnav {
+    background-color: skyblue;
+    overflow: hidden;
+    font-family: sans-serif;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 11px 30px;
+    text-decoration: none;
+    font-size: 19px;
+}
+
+.topnav a:hover {
+    background-color: lightyellow;
+    color: black;
+}
+
+.active {
+    background-color: palevioletred;
+    color: white;
+}
+
+.background {
+    background-color: #fefdcc;
+}
+
+.img {
+    text-align: center;
+    margin: auto;
+}
+
+#tuf-icon {
+    display: block;
+    margin: 20px auto;
+    max-width: 150px;
+    border: 2px solid #333;
+    border-radius: 10px;
+}
